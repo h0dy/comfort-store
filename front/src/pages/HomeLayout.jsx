@@ -5,9 +5,7 @@ const HomeLayout = () => {
       <nav>
         <span className="text-4xl text-primary">Comfy</span>
       </nav>
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
     </>
   );
 };

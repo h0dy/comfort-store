@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.error-container {
+  @apply grid min-h-[100vh] place-items-center px-8
+}
+
+.error-heading {
+  @apply text-center font-bold text-4xl
+}
+.error-heading-404 {
+  @apply mt-4 text-3xl font-bold tracking-tight sm:text-5xl
+}
