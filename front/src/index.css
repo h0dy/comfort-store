@@ -9,6 +9,11 @@
 .error-heading {
   @apply text-center font-bold text-4xl
 }
+
 .error-heading-404 {
   @apply mt-4 text-3xl font-bold tracking-tight sm:text-5xl
+}
+
+.form-container {
+  @apply card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 items-stretch
 }
