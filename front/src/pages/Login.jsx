@@ -5,8 +5,8 @@ import { FaAt, FaKey } from "react-icons/fa";
 const Login = () => {
   return (
     <section className="h-screen grid place-items-center">
-      <Form method="post" className="form-container">
-        <h4 className="text-center text-3xl font-bold">Login</h4>
+      <Form method="post" className="login-container">
+        <h4 className="heading">Login</h4>
 
         <FormInput
           type="email"

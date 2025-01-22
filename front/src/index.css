@@ -14,6 +14,18 @@
   @apply mt-4 text-3xl font-bold tracking-tight sm:text-5xl
 }
 
-.form-container {
+.login-container {
   @apply card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 items-stretch
+}
+
+.register-container {
+  @apply h-screen grid place-items-center
+}
+
+.register-form {
+  @apply card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4
+}
+
+.heading {
+  @apply text-center text-3xl font-bold
 }
