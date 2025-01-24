@@ -57,3 +57,31 @@
 .btn-cart {
   @apply btn btn-ghost btn-circle btn-md ml-4
 }
+
+.about-container {
+  @apply flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center
+}
+
+.about-heading {
+  @apply text-4xl font-bold leading-none tracking-tight sm:text-6xl
+}
+
+.about-sub-heading {
+  @apply stat-title text-primary-content text-4xl font-bold tracking-widest
+}
+
+.about-info {
+  @apply mt-6 text-xl leading-8 max-w-2xl mx-auto
+}
+
+.carousel-container {
+  @apply hidden h-[28rem] lg:carousel carousel-center bg-neutral rounded-box space-x-4 p-4
+}
+
+.hero-heading {
+  @apply max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl capitalize
+}
+
+.sup-hero-heading {
+  @apply bg-primary text-secondary-content rounded-box mr-3 px-5 py-2 inline-block
+}

@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="navbar-center hidden md:flex">
+        <div className="navbar-center text-4xl hidden md:flex">
           <ul className="menu menu-horizontal">
             <NavLinks />
           </ul>
