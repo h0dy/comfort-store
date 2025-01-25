@@ -85,3 +85,13 @@
 .sup-hero-heading {
   @apply bg-primary text-secondary-content rounded-box mr-3 px-5 py-2 inline-block
 }
+
+.products-grid {
+  @apply pt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3
+}
+
+.product-card {
+  @apply card w-full shadow-xl hover:shadow-2xl transition duration-300
+}
+
+
