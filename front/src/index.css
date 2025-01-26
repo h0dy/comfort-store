@@ -10,6 +10,11 @@
   }
 }
 
+.dropdown-links {
+  @apply menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-200 rounded-box w-52
+}
+
+/* #region error style */
 .error-container {
   @apply grid min-h-[100vh] place-items-center px-8
 }
@@ -22,6 +27,9 @@
   @apply mt-4 text-3xl font-bold tracking-tight sm:text-5xl
 }
 
+/* #endregion error style */
+
+/* #region register/login style */
 .login-container {
   @apply card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4 items-stretch
 }
@@ -33,6 +41,7 @@
 .register-form {
   @apply card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4
 }
+
 
 .heading {
   @apply text-center text-3xl font-bold
@@ -50,13 +59,9 @@
   @apply flex gap-x-6 justify-center items-center
 }
 
-.dropdown-links {
-  @apply menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-200 rounded-box w-52
-}
+/* #endregion register/login style */
 
-.btn-cart {
-  @apply btn btn-ghost btn-circle btn-md ml-4
-}
+/* #region about style */
 
 .about-container {
   @apply flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center
@@ -74,6 +79,10 @@
   @apply mt-6 text-xl leading-8 max-w-2xl mx-auto
 }
 
+/* #endregion about style */
+
+/* #region hero style */
+
 .carousel-container {
   @apply hidden h-[28rem] lg:carousel carousel-center bg-neutral rounded-box space-x-4 p-4
 }
@@ -86,6 +95,13 @@
   @apply bg-primary text-secondary-content rounded-box mr-3 px-5 py-2 inline-block
 }
 
+/* #endregion hero style */
+
+/* #region product style */
+.btn-cart {
+  @apply btn btn-ghost btn-circle btn-md ml-4
+}
+
 .products-grid {
   @apply pt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3
 }
@@ -94,4 +110,8 @@
   @apply card w-full shadow-xl hover:shadow-2xl transition duration-300
 }
 
+.single-product-container {
+  @apply mt-6 grid gap-y-8 lg:grid-cols-2 lg:gap-x-16
+}
 
+/* #endregion product style */
