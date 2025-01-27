@@ -5,7 +5,7 @@ const FormInput = ({ placeholder, name, type, defaultValue, children }) => {
         {children}
         <input
           type={type}
-          className="grow"
+          className="grow placeholder:capitalize"
           name={name}
           placeholder={placeholder}
           defaultValue={defaultValue}

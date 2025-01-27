@@ -115,3 +115,27 @@
 }
 
 /* #endregion product style */
+
+/* #region products page style */
+.products-container {
+  @apply flex justify-between items-center mt-8 border-b-2 border-base-300 pb-5
+}
+
+
+.products-list {
+  @apply mt-12 grid gap-y-8
+}
+
+.product-item {
+  @apply p-8 rounded-lg flex flex-col sm:flex-row gap-y-4 flex-wrap bg-base-100 shadow-xl hover:shadow-2xl duration-300;
+}
+
+.product-image {
+  @apply size-24 rounded-lg sm:size-32 group-hover:scale-105 transition duration-300
+}
+
+.filter-form {
+  @apply bg-base-200 rounded-md px-8 py-4 grid gap-x-4 gap-y-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
+}
+
+/* #endregion products page style */

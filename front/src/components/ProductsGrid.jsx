@@ -6,7 +6,7 @@ const ProductsGrid = () => {
   return (
     <div className="products-grid">
       {products.map((product) => {
-        const { title, price, image } = product.attributes;
+        const { title, price, image, company } = product.attributes;
         const riyalAmount = formatePrice(price);
         return (
           <Link
@@ -23,6 +23,9 @@ const ProductsGrid = () => {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title capitalize tracking-wide">{title}</h2>
+              <h3 className="capitalize text-neutral-content text-md">
+                {company}
+              </h3>
               <span className="text-secondary">{riyalAmount}</span>
             </div>
           </Link>
